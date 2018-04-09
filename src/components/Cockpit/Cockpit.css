@@ -1,0 +1,34 @@
+
+.red{
+    color: red;
+  }
+  
+  .bold{
+    font-weight: bold;
+  }
+  
+  .button{
+    border: 1px solid red;
+    padding: 16px;
+    background-color: green;
+    font: inherit;
+    color: white;
+  }
+  
+  .button:hover {
+    background-color: lightgreen;
+    color: black;
+  }
+  
+  .button.Red{
+    border: 1px solid green;
+    padding: 16px;
+    background-color: red;
+    font: inherit;
+    color: white;
+  }
+  
+  .button.Red:hover{
+    background-color: salmon;
+    color: black;
+  }
